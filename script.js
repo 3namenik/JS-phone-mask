@@ -1,4 +1,4 @@
-document.addEventListener(DOMContentLoaded => {
+document.addEventListener('DOMContentLoaded', evt => {
     /* Маска для телефона */
 
     [].forEach.call( document.getElementsByName('phone'), function(input){
