@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', evt => {
     /* Маска для телефона */
 
-    [].forEach.call( document.getElementsByName('phone'), function(input){
+    [].forEach.call( document.querySelectorAll('[autocomplete=tel], [name=phone]'), function(input){
         var keyCode;
         function mask(event) {
             event.keyCode && (keyCode = event.keyCode);
